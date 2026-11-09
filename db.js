@@ -28,7 +28,7 @@ if (total === 0) {
   );
   insertar.run('Cuentos de la selva', 'Horacio Quiroga', '', 'Clásico rioplatense.');
   // Este segundo libro usa una imagen por URL externa (ejemplo con picsum.photos)
-  insertar.run('El principito', 'Antoine de Saint-Exupéry', 'https://picsum.photos/seed/principito/320/360', 'Para releer cada tanto.');
+  insertar.run('El principito', 'Antoine de Saint-Exupéry', 'https://i.pinimg.com/736x/44/49/fa/4449fa8105c957a2cea0f41fd3b60d5c.jpg', 'Para releer cada tanto.');
 }
 
 // 3) Consultas preparadas. Los "?" evitan la inyección SQL:
